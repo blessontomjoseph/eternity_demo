@@ -4,7 +4,7 @@ import streamlit as st
 openai.api_key="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"
 
 
-with open("meta_data/meta.json","r") as f:
+with open("meta.json","r") as f:
     meta=json.load(f)
         
 fine_tuned_model_id=meta['fine_tuned_model_id']
