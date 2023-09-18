@@ -1,7 +1,7 @@
 import json
 import openai
 import streamlit as st
-openai.api_key="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"
+openai.api_key=st.secrets["openai_key"]
 
 
 with open("meta.json","r") as f:
